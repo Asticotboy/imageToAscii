@@ -45,6 +45,7 @@ La syntaxe de base est :
 python3 imageToAscii.py <chemin_vers_image> [option]...
 # ou si exécutable
 imageToAscii <chemin_vers_image> [option]..
+```
 
 Les options sont les suivantes : 
 
@@ -52,15 +53,16 @@ Les options sont les suivantes :
 [jeu de caractère] Valeurs possibles : default, math, number, alphabet.
 
 Si aucun des jeux de caractères ne plait, utiliser le paramètre suivant pour utiliser les caractères de votre choix:
-
+```bash
 -c <chaîne>
-
+```
 Si rien n'est mis, c'est le set default par défaut.
 
 
-Le prochain paramètre permet de régler la taille : 
+Le prochain paramètre permet de régler la taille :
+```bash
 -s <taille>,Définit la largeur maximale de l'image ASCII (en caractères). Par défaut : 80.
-
+```
 
 
 
