@@ -50,19 +50,26 @@ imageToAscii <chemin_vers_image> [option]..
 Les options sont les suivantes : 
 
 
+
+
 [jeu de caractère] Valeurs possibles : default, math, number, alphabet.
 
+![](https://github.com/Asticotboy/imageToAscii/blob/main/Capture%20d’écran_2025-10-24_08-26-14.png?raw=true)
 Si aucun des jeux de caractères ne plait, utiliser le paramètre suivant pour utiliser les caractères de votre choix:
 ```bash
 -c <chaîne>
 ```
-Si rien n'est mis, c'est le set default par défaut.
 
+![](https://github.com/Asticotboy/imageToAscii/blob/main/Capture%20d’écran_2025-10-24_08-26-41.png?raw=true)
+Si rien n'est mis, c'est le set default par défaut.
+![](https://github.com/Asticotboy/imageToAscii/blob/main/Capture%20d’écran_2025-10-24_08-25-54.png?raw=true)
 
 Le prochain paramètre permet de régler la taille :
 ```bash
 -s <taille>,Définit la largeur maximale de l'image ASCII (en caractères). Par défaut : 80.
 ```
+![](https://github.com/Asticotboy/imageToAscii/blob/main/Capture%20d’écran_2025-10-24_08-27-07.png?raw=true)
+
 
 
 
